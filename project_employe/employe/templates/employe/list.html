@@ -8,12 +8,12 @@
         <div class="space-y-4 w-full">
             {% for emp in employes%}
                 <div class="p-4 bg-base-100 rounded-lg w-full flex justify-between items-center">
-                    <div class="space-y-2">
+                    <div class="space-y-4">
                         <p class="font-bold text-lg">{{emp.nom}}</p>
                          <p class="badge badge-outline badge-primary">{{emp.email}}</p>
                          <p class="badge dash-outline badge-primary">{{emp.date_de_naissance}}</p>
                         
-                         <div class="flex gap-2">
+                         <div class="flex gap-4">
                              <p class="badge badge-outline badge-primary">{{emp.poste}}</p>
                             <p class="badge dash-outline badge-primary">{{emp.salaire}} $</p>
                             <p class="badge dash-outline badge-primary">{{emp.lieu_de_residence}} </p>
